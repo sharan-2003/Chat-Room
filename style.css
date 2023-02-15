@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 25px 'Baloo Bhai 2', cursive;
+    background: #008b848c;
+
+}
+h1{
+    font: 40px ;
+  color: crimson;
+    text-align: center;
+
+}
+
+div {
+    background: #000000;
+    padding: 3px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+
+div input {
+    border: 0;
+    padding: 15px;
+    width: 90%;
+    border-radius: 30px;
+    margin-right: 0.5%;
+
+}
+
+div button {
+    width: 9%;
+    background: #ffd700de;
+    border: none;
+    padding: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius:30px;
+
+}
+
+#messages {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#messages li {
+    padding: 5px 10px;
+}
+
+#messages li:nth-child(odd) {
+    background: #eee;
+}
